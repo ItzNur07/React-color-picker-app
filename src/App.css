@@ -1,3 +1,22 @@
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content:center;
+}
+
+.col{
+  width:250px;
+  height:250px;
+  line-height:250px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .App {
   text-align: center;
 }
